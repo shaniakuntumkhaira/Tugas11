@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,4 +7,153 @@
     android:layout_height="match_parent"
     tools:context=".PerpustakaanActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivui3"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:background="@drawable/ui3" />
+
+        <ImageView
+            android:id="@+id/ivui4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ivui3"
+            android:background="@drawable/ui4" />
+
+        <ImageButton
+            android:id="@+id/ibPerpus1"
+            android:layout_width="119dp"
+            android:layout_height="173dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="255dp"
+            android:background="@drawable/untitled"
+            android:contentDescription="@string/description_perpus1" />
+
+        <TextView
+            android:id="@+id/tvPerpus1"
+            android:layout_width="94dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/ibPerpus1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="283dp"
+            android:text="The Mystical World"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/ivPerpus2"
+            android:layout_width="119dp"
+            android:layout_height="173dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="128dp"
+            android:background="@drawable/perpus_2_1" />
+
+        <TextView
+            android:id="@+id/tvPerpus2"
+            android:layout_width="94dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/ivPerpus2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="151dp"
+            android:text="Tumbler Academy"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/ivPerpus3"
+            android:layout_width="119dp"
+            android:layout_height="173dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/perpus_3" />
+
+        <TextView
+            android:id="@+id/tvPerpus3"
+            android:layout_width="94dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/ivPerpus3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="27dp"
+            android:text="Mariposa"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/ivPerpus4"
+            android:layout_width="119dp"
+            android:layout_height="173dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="255dp"
+            android:layout_below="@+id/tvPerpus1"
+            android:background="@drawable/perpus_4" />
+
+        <TextView
+            android:id="@+id/tvPerpus4"
+            android:layout_width="94dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/ivPerpus4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="283dp"
+            android:text="Mariposa 2"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/ivPerpus5"
+            android:layout_width="119dp"
+            android:layout_height="173dp"
+            android:layout_below="@+id/tvPerpus2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="128dp"
+            android:background="@drawable/perpus_5" />
+
+        <TextView
+            android:id="@+id/tvPerpus5"
+            android:layout_width="94dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/ivPerpus5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="151dp"
+            android:text="Vendela"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/ivPerpus6"
+            android:layout_width="119dp"
+            android:layout_height="173dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="4dp"
+            android:layout_below="@+id/tvPerpus3"
+            android:background="@drawable/perpus_6" />
+
+        <TextView
+            android:id="@+id/tvPerpus6"
+            android:layout_width="94dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/ivPerpus6"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="27dp"
+            android:text="Undercover 1940"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</ScrollView>
